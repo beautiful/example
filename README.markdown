@@ -9,12 +9,14 @@ favourite command line prompt:
 
 ```
 git clone https://github.com/Beautiful/Example.git beautiful-example
-cd beautiful
+cd beautiful-example
 git update --init --recursive
 ```
 
 Then set up an web server such as Apache to serve the `public`
-directory included in this repository.
+directory included in this repository. If you use anything other than
+Apache you will want to port the .htaccess contents to your servers
+equivalent.
 
 Now go to the location in a browser to see the example working.
 
