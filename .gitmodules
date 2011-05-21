@@ -3,4 +3,4 @@
 	url = https://github.com/kohana/core.git
 [submodule "modules/beautiful-view"]
 	path = modules/beautiful-view
-	url = https://github.com/Beautiful/View.git
+	url = https://github.com/beautiful/view.git

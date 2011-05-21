@@ -8,7 +8,7 @@ To get this example up an running via git do the following from your
 favourite command line prompt:
 
 ```
-git clone https://github.com/Beautiful/Example.git beautiful-example
+git clone https://github.com/beautiful/example.git beautiful-example
 cd beautiful-example
 git update --init --recursive
 ```
