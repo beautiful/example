@@ -4,7 +4,8 @@ Here is an example of how Beautiful your Kohana apps can be.
 
 **Warning:** Vanity not included.
 
-To get this example up an running via git do the following:
+To get this example up an running via git do the following from your
+favourite command line prompt:
 
 ```
 git clone https://github.com/Beautiful/Example.git beautiful-example
