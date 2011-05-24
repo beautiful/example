@@ -11,6 +11,11 @@
  */
 class View_Example extends ViewModel {
 
+	public function stylesheets()
+	{
+		return new Asset_Group('stylesheets');
+	}
+
 	public function page_title()
 	{
 		return 'A Beautiful Example';

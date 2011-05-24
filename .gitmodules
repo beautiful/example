@@ -4,3 +4,6 @@
 [submodule "modules/beautiful-view"]
 	path = modules/beautiful-view
 	url = https://github.com/beautiful/view.git
+[submodule "modules/beautiful-asset"]
+	path = modules/beautiful-asset
+	url = https://github.com/beautiful/asset.git

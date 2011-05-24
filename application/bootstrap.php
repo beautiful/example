@@ -122,7 +122,8 @@ Kohana::$config->attach(new Config_File);
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
 Kohana::modules(array(
-	'beautiful-view' => MODPATH.'beautiful-view',
+	'beautiful-asset' => MODPATH.'beautiful-asset',
+	'beautiful-view'  => MODPATH.'beautiful-view',
 ));
 
 // Example Route
