@@ -127,7 +127,7 @@ Kohana::modules(array(
 ));
 
 // Example Route
-Route::set('beautiful-example', 'example')
+Route::set('beautiful-example', '')
 	->defaults(array(
 		'controller' => 'Example',
 	));
