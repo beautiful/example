@@ -10,12 +10,7 @@
  * @license     MIT
  */
 class View_Example extends ViewModel {
-
-	public function stylesheets()
-	{
-		return new Asset_Group('stylesheets');
-	}
-
+	
 	public function page_title()
 	{
 		return 'A Beautiful Example';
@@ -29,6 +24,16 @@ class View_Example extends ViewModel {
 	public function charset()
 	{
 		return Kohana::$charset;
+	}
+
+	public function stylesheets()
+	{
+		return new Asset_Group('stylesheets');
+	}
+
+	public function javascripts()
+	{
+		return new Asset_Group('javascripts');
 	}
 
 }
