@@ -25,5 +25,10 @@ class View_Example extends ViewModel {
 	{
 		return '<p>Beautiful content.</p>';
 	}
+	
+	public function charset()
+	{
+		return Kohana::$charset;
+	}
 
 }
