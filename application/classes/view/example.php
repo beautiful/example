@@ -28,12 +28,12 @@ class View_Example extends ViewModel {
 
 	public function stylesheets()
 	{
-		return new Asset_Group('stylesheets');
+		return Asset_Cache::group('stylesheets');
 	}
 
 	public function javascripts()
 	{
-		return new Asset_Group('javascripts');
+		return new Asset_Cache(new Asset_Group('javascripts'));
 	}
 
 }
