@@ -6,8 +6,9 @@ return array(
 		'stylesheets' => array(
 			array('css', 'css/screen.css'),
 			array('css', 'css/print.css', array(
-					'media' => 'print',
-				)),
+				'media' => 'print',
+			)),
+			array('less', 'css/test.less'),
 		),
 		'javascripts' => array(
 			array('js', 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js'),
@@ -17,8 +18,8 @@ return array(
 	),
 	
 	'filters' => array(
-		'stylesheets' => array(array('Concat')),
-		'javascripts' => array(array('Concat'), array('JsMinPlus')),
+		'stylesheets' => array('Less', 'Concat'),
+		'javascripts' => array('Concat', 'JsMinPlus'),
 	),
 	
 );
