@@ -66,6 +66,8 @@ if (isset($_SERVER['KOHANA_ENV']))
 	Kohana::$environment = constant('Kohana::'.strtoupper($_SERVER['KOHANA_ENV']));
 }
 
+Kohana::$environment = Kohana::PRODUCTION;
+
 /**
  * Set the PHP error reporting level. If you set this in php.ini, you remove this.
  * @see  http://php.net/error_reporting
