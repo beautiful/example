@@ -13,7 +13,8 @@ class Controller_Example extends Controller {
 
 	public function action_index()
 	{
-		$this->response->body(new View(new View_Example));
+		$view = new View('example', new View_Example);
+		$this->response->body($view);
 	}
 
 }

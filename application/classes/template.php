@@ -9,12 +9,12 @@
  * @copyright   Luke Morton, 2011
  * @license     MIT
  */
-class View extends Beautiful_View {
+class Template extends Beautiful_Template {
 
 	/**
 	 * @var     string     Default Template Class
 	 * @access  protected
 	 */
-	protected $_default_template = 'Template_Mustache';
+	protected $default_class = 'Template_Mustache';
 
 }
