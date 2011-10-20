@@ -16,5 +16,23 @@ class Controller_Example extends Controller {
 		$view = new View('example', new View_Example);
 		$this->response->body($view);
 	}
+	
+	public function action_partial()
+	{
+		$view = new View('example', new View_Example);
+		$view->template()->partial('header', 'header');
+		$this->response->body($view);
+	}
+		
+	public function action_oldschool()
+	{
+		$view = new View(
+			new Template_PHP('oldschool'),
+			array(
+				'page_title' => 'An example title',
+				'content'    => '<p>This is a para.</p>',
+			));
+		$this->response->body($view);
+	}
 
 }
