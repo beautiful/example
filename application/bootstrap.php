@@ -129,9 +129,7 @@ Kohana::modules(array(
 ));
 
 // Example Route
-Route::set('beautiful-example', '')
-	->defaults(array(
-		'controller' => 'Example',
-	));
+Route::set('beautiful-example', '(<action>)')
+	->defaults(array('controller' => 'Example'));
 
 Cookie::$salt = 'ENTER HERE';
