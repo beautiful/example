@@ -1,20 +1,16 @@
 <!doctype html>
 <html>
 	<head>
-		<title>{{page_title}}</title>
-		<meta charset="{{charset}}" />
-		{{&stylesheets}}
+		<title><?= $page_title ?></title>
 	</head>
 	<body>
-		{{>header}}
 		<div>
 			<div class="header" id="branding">
-				<h1>{{page_title}}</h1>
+				<h1><?= $page_title ?></h1>
 			</div>
 			<div class="content">
-				{{&content}}
+				<?= $content ?>
 			</div>
 		</div>
-		{{&javascripts}}
 	</body>
 </html>

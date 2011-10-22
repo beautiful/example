@@ -34,5 +34,13 @@ class Controller_Example extends Controller {
 			));
 		$this->response->body($view);
 	}
+	
+	public function action_json()
+	{
+		$view = new View(
+			new Template_JSON('example'),
+			new View_Example);
+		$this->response->body($view);
+	}
 
 }
